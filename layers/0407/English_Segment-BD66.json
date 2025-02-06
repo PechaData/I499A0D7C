@@ -1,0 +1,80 @@
+{
+  "@type": "AnnotationStore",
+  "@id": "I499A0D7C",
+  "resources": [
+    {
+      "@type": "TextResource",
+      "@id": "0407",
+      "@include": "../../base/0407.txt"
+    }
+  ],
+  "annotationsets": [
+    {
+      "@type": "AnnotationDataSet",
+      "@id": "Translation",
+      "keys": [
+        {
+          "@type": "DataKey",
+          "@id": "root_idx_mapping"
+        },
+        {
+          "@type": "DataKey",
+          "@id": "Translation_Segment"
+        }
+      ],
+      "data": [
+        {
+          "@type": "AnnotationData",
+          "@id": "8B604FF8",
+          "key": "root_idx_mapping",
+          "value": {
+            "@type": "String",
+            "value": "1"
+          }
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "B0978BB8",
+          "key": "Translation_Segment",
+          "value": {
+            "@type": "String",
+            "value": "English_Segment"
+          }
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "@type": "Annotation",
+      "@id": "99ABCC09",
+      "target": {
+        "@type": "TextSelector",
+        "resource": "0407",
+        "offset": {
+          "@type": "Offset",
+          "begin": {
+            "@type": "BeginAlignedCursor",
+            "value": 0
+          },
+          "end": {
+            "@type": "BeginAlignedCursor",
+            "value": 43
+          }
+        }
+      },
+      "data": [
+        {
+          "@type": "AnnotationData",
+          "@id": "8B604FF8",
+          "set": "Translation"
+        },
+        {
+          "@type": "AnnotationData",
+          "@id": "B0978BB8",
+          "set": "Translation"
+        }
+      ]
+    }
+  ]
+}
