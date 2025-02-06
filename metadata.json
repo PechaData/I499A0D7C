@@ -1,0 +1,43 @@
+{
+  "id": "I499A0D7C",
+  "title": {
+    "en": "Test OPF"
+  },
+  "author": {
+    "en": "Tashi"
+  },
+  "imported": "2025-02-06T17:36:33.652281",
+  "source": "www.openpecha.org",
+  "toolkit_version": "0.0.1",
+  "parser": "GoogleDocTranslationParser",
+  "initial_creation_type": "google_docx",
+  "language": "en",
+  "source_metadata": {
+    "presentation": {
+      "en": ""
+    },
+    "usage_title": {
+      "en": "Test OPF"
+    },
+    "long_title": {
+      "en": "Test OPF"
+    },
+    "document_id": "1cFw_6PaUD5AQIgyOGsfXer98Vm7bTmEYoEzHDXKQGPU"
+  },
+  "bases": [
+    {
+      "4AB9": {
+        "source_metadata": {
+          "total_segments": 0
+        },
+        "base_file": "4AB9.txt"
+      }
+    }
+  ],
+  "copyright": {
+    "status": "Unknown",
+    "notice": "",
+    "info_url": null
+  },
+  "licence": "Unknown"
+}
